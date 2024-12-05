@@ -9,7 +9,7 @@ import useSWR from 'swr';
 import styled from 'styled-components';
 // Imports the styled-components library for defining styled components in a React component.
 
-import fetcher from "@/app/lib/fetcher";
+import fetcher from "@/lib/fetcher";
 // Styled Components
 const Section = styled.div`
   margin-bottom: 32px;
