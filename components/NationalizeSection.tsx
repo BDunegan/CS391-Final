@@ -9,6 +9,7 @@ import useSWR from 'swr';
 import styled from 'styled-components';
 // Imports the styled-components library for defining styled components in a React component.
 
+import fetcher from "@/app/lib/fetcher";
 // Styled Components
 const Section = styled.div`
   margin-bottom: 32px;
@@ -22,8 +23,6 @@ const SectionTitle = styled.h2`
 `;
 // Creates a styled `h2` component for section titles with a specific font size, weight, and color.
 
-const fetcher = (url: string) => fetch(url).then((res) => res.json());
-// Defines a reusable `fetcher` function for SWR. It takes a URL, fetches data, and parses it as JSON.
 
 interface NationalizeSectionProps {
     name: string;
