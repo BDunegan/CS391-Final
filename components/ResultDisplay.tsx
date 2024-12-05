@@ -3,7 +3,7 @@ import useSWR from 'swr';
 import styled from 'styled-components';
 import NationalizeSection from './NationalizeSection';
 import GenderComponent from './GenderComponent';
-import fetcher from "@/app/lib/fetcher";
+import fetcher from "@/lib/fetcher";
 
 // Styled Components
 const Section = styled.div`

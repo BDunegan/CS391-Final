@@ -3,7 +3,7 @@
 // Import necessary libraries and hooks
 import useSWR from "swr";
 import styled from 'styled-components';
-import fetcher from "@/app/lib/fetcher";
+import fetcher from "@/lib/fetcher";
 
 // Styled component for the section container
 const Section = styled.div`
