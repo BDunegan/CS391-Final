@@ -3,10 +3,10 @@
 /*
 CS391 Final Project
 Work Breakdown:
-  Brandon - Form components and Section aggregation
-  Dillan - Gender API Section Component
-  Valentina - Nationalize API Section Component
-  Marisol - Age API Section Component
+  Brandon Dunegan - Form components and Section aggregation
+  Dillan Pho - Gender API Section Component
+  Valentina Haddad - Nationalize API Section Component
+  Marisol Jimenez - Age API Section Component
 */
 
 import Form from '@/components/Form';

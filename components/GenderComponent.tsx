@@ -1,4 +1,4 @@
-/*Dillan Pho's Component*/
+{/* Dillan Pho's Component */}
 
 // Import necessary libraries and hooks
 import useSWR from "swr";
@@ -25,7 +25,6 @@ const GenderText = styled.p<{ gender: string }>`
   border-radius: 8px;
 `;
 
-// Fetcher function to fetch data from the given URL and parse it as JSON
 
 
 // GenderComponent functional component

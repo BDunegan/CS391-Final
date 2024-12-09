@@ -1,3 +1,5 @@
+{/* Marisol Jimenez's Component*/}
+
 // Importing libraries and utilities
 import useSWR from 'swr'; // SWR is a React hook library for data fetching with built-in caching and revalidation.
 import styled from 'styled-components'; // Used for creating styled components in React.
